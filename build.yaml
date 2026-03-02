@@ -18,3 +18,11 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: xiao_ble//zmk
+    shield: settings_reset
+    artifact-name: xiao_ble_reset
+  - board: xiao_ble//zmk
+    shield: settings_reset
+    snippet: zmk-usb-logging
+    artifact-name: xiao_ble_reset_logging
