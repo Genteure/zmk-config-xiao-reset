@@ -27,3 +27,11 @@ include:
     snippet: zmk-usb-logging
     cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=5000
     artifact-name: xiao_ble_reset_logging
+  - board: nice_nano//zmk
+    shield: settings_reset
+    artifact-name: nice_nano_reset
+  - board: nice_nano//zmk
+    shield: settings_reset
+    snippet: zmk-usb-logging
+    cmake-args: -DCONFIG_LOG_PROCESS_THREAD_STARTUP_DELAY_MS=5000
+    artifact-name: nice_nano_reset_logging
